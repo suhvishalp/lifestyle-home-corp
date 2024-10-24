@@ -1,0 +1,81 @@
+{
+  "info": {
+    "name": "Commercetools API",
+    "description": "Collection for testing Commercetools API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get Project Details",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "url": {
+          "raw": "http://localhost:8080/project-details",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "project-details"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Successful Response",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8080/project-details",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "project-details"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [],
+          "cookie": [],
+          "body": "{}"
+        },
+        {
+          "name": "Error Response",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8080/project-details",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "project-details"
+              ]
+            }
+          },
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": "json",
+          "header": [],
+          "cookie": [],
+          "body": "\"Project not found or API call failed\""
+        }
+      ]
+    }
+  ]
+}

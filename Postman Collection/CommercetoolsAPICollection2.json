@@ -1,0 +1,251 @@
+{
+  "info": {
+    "name": "Commercetools API",
+    "description": "Collection for testing Commercetools API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Product Service",
+      "item": [
+        {
+          "name": "Product List",
+          "item": [
+            {
+              "name": "Get Product List",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": ""
+                },
+                "url": {
+                  "raw": "http://localhost:8081/products",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8081",
+                  "path": [
+                    "products"
+                  ]
+                }
+              },
+              "response": [
+                {
+                  "name": "Successful Response",
+                  "originalRequest": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "http://localhost:8081/products",
+                      "protocol": "http",
+                      "host": [
+                        "localhost"
+                      ],
+                      "port": "8081",
+                      "path": [
+                        "products"
+                      ]
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "_postman_previewlanguage": "json",
+                  "header": [],
+                  "cookie": [],
+                  "body": "[]"
+                },
+                {
+                  "name": "Error Response",
+                  "originalRequest": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "http://localhost:8081/products",
+                      "protocol": "http",
+                      "host": [
+                        "localhost"
+                      ],
+                      "port": "8081",
+                      "path": [
+                        "products"
+                      ]
+                    }
+                  },
+                  "status": "Not Found",
+                  "code": 404,
+                  "_postman_previewlanguage": "json",
+                  "header": [],
+                  "cookie": [],
+                  "body": "\"Products not found or API call failed\""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Product Details",
+          "item": [
+            {
+              "name": "Get Product Details",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": ""
+                },
+                "url": {
+                  "raw": "http://localhost:8081/product-details",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8081",
+                  "path": [
+                    "product-details"
+                  ]
+                }
+              },
+              "response": [
+                {
+                  "name": "Successful Response",
+                  "originalRequest": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "http://localhost:8081/product-details",
+                      "protocol": "http",
+                      "host": [
+                        "localhost"
+                      ],
+                      "port": "8081",
+                      "path": [
+                        "product-details"
+                      ]
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "_postman_previewlanguage": "json",
+                  "header": [],
+                  "cookie": [],
+                  "body": "{}"
+                },
+                {
+                  "name": "Error Response",
+                  "originalRequest": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "http://localhost:8081/product-details",
+                      "protocol": "http",
+                      "host": [
+                        "localhost"
+                      ],
+                      "port": "8081",
+                      "path": [
+                        "product-details"
+                      ]
+                    }
+                  },
+                  "status": "Not Found",
+                  "code": 404,
+                  "_postman_previewlanguage": "json",
+                  "header": [],
+                  "cookie": [],
+                  "body": "\"Product not found or API call failed\""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      
+      "name": "Project",
+      "item": [
+        {
+          "name": "Project Details",
+          "item": [
+            {
+              "name": "Get Project Details",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": ""
+                },
+                "url": {
+                  "raw": "http://localhost:8080/project-details",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8080",
+                  "path": [
+                    "project-details"
+                  ]
+                }
+              },
+              "response": [
+                {
+                  "name": "Successful Response",
+                  "originalRequest": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "http://localhost:8080/project-details",
+                      "protocol": "http",
+                      "host": [
+                        "localhost"
+                      ],
+                      "port": "8080",
+                      "path": [
+                        "project-details"
+                      ]
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "_postman_previewlanguage": "json",
+                  "header": [],
+                  "cookie": [],
+                  "body": "{}"
+                },
+                {
+                  "name": "Error Response",
+                  "originalRequest": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "http://localhost:8080/project-details",
+                      "protocol": "http",
+                      "host": [
+                        "localhost"
+                      ],
+                      "port": "8080",
+                      "path": [
+                        "project-details"
+                      ]
+                    }
+                  },
+                  "status": "Not Found",
+                  "code": 404,
+                  "_postman_previewlanguage": "json",
+                  "header": [],
+                  "cookie": [],
+                  "body": "\"Project not found or API call failed\""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
