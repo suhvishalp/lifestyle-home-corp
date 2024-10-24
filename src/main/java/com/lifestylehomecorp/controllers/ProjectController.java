@@ -2,7 +2,6 @@ package com.lifestylehomecorp.controllers;
 
 import com.commercetools.api.models.project.Project;
 import com.lifestylehomecorp.services.ProjectService;
-import io.vrap.rmf.base.client.ApiHttpResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
